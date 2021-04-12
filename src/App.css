@@ -28,6 +28,30 @@
   color: #61dafb;
 }
 
+.menu {
+  background-color: lightblue;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  color: white;
+  font-weight: thin;
+}
+
+.header {
+  background-color: rgba(119, 136, 153, 0.384);
+}
+
+.comments {
+  background-color: orange;
+  font-weight: 800;
+  color: white;
+}
+
+.articleTitle {
+  color: rgb(54, 123, 146);
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
